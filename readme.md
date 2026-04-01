@@ -84,3 +84,8 @@ The car is designed using the following components:
 4. Update IP in controller
 5. Power both
 6. Use joystick
+
+
+how it should look after build
+<img width="1512" height="982" alt="Screenshot 2026-04-01 at 3 24 57 PM" src="https://github.com/user-attachments/assets/63b11b59-d400-4ea3-939f-6d490744c5ce" />
+
