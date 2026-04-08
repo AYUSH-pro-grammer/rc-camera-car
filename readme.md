@@ -40,7 +40,16 @@ the controller have following compoents:
 
 ![Car Body](image/cad/car/body.png)
 ![Car Bottom](image/cad/car/bottomView.png)
-![Car Internal](image/cad/car/openGates.png)
+![front](image/cad/car/front.png)
+
+<img width="1512" height="982" alt="Screenshot 2026-04-08 at 3 59 20 PM" src="https://github.com/user-attachments/assets/95652409-0f2b-4569-8e94-55672e0f3507" />
+
+<img width="1512" height="982" alt="Screenshot 2026-04-08 at 3 57 22 PM" src="https://github.com/user-attachments/assets/3ddd3f24-135c-42bc-a1c6-cfa944a9f308" />
+
+<img width="1512" height="982" alt="Screenshot 2026-04-08 at 3 56 59 PM" src="https://github.com/user-attachments/assets/6586fd46-9378-4f66-b407-0553907b10b1" />
+
+
+
 
 The car is designed using the following components:
 
