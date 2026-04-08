@@ -38,9 +38,6 @@ the controller have following compoents:
 
 ### Car Design
 
-![Car Body](image/cad/car/body.png)
-![Car Bottom](image/cad/car/bottomView.png)
-![front](image/cad/car/front.png)
 
 <img width="1512" height="982" alt="Screenshot 2026-04-08 at 3 59 20 PM" src="https://github.com/user-attachments/assets/95652409-0f2b-4569-8e94-55672e0f3507" />
 
