@@ -93,5 +93,5 @@ The car is designed using the following components:
 
 
 how it should look after build
-<img width="1512" height="982" alt="Screenshot 2026-04-01 at 3 24 57 PM" src="https://github.com/user-attachments/assets/63b11b59-d400-4ea3-939f-6d490744c5ce" />
+<img width="1512" height="982" alt="Screenshot 2026-04-08 at 4 30 43 PM" src="https://github.com/user-attachments/assets/55dfd37e-2460-4e56-82d4-07e1aff73da2" />
 
