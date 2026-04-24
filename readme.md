@@ -11,6 +11,21 @@ joystick -> controller [esp32] -> esp32 cam -> move / stop motor
 camera -> esp32cam -> controller -> show on screen
 
 
+##BOM
+
+| Component                         | Purpose                                                    | Quantity | Total Cost (USD) | Link                                                                                                                                                                                                                                                           | Distributor       |
+| --------------------------------- | ---------------------------------------------------------- | -------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 3S Battery Holder                 | Holds 3×18650 cells in series (≈11.1V for motors + system) | 1        | 0.30             | [https://robocraze.com/products/18650-3-cell-holder-charger-without-cover](https://robocraze.com/products/18650-3-cell-holder-charger-without-cover)                                                                                                           | Robocraze         |
+| 2S Battery Holder                 | Holds 2×18650 cells for controller power                   | 1        | 0.37             | [https://robocraze.com/products/18650-2-cell-holder](https://robocraze.com/products/18650-2-cell-holder)                                                                                                                                                       | Robocraze         |
+| 4700µF 25V Electrolytic Capacitor | Stabilizes power and reduces motor noise                   | 1        | 1.05             | [https://robocraze.com/products/4700uf-25v-electrolytic-capacitor](https://robocraze.com/products/4700uf-25v-electrolytic-capacitor)                                                                                                                           | Quartz Components |
+| Buck Converter (LM2596)           | Steps down ~11.1V to 5V/3.3V for ESP32 boards              | 2        | 1.20             | [https://robocraze.com/products/lm2596-dc-dc-buck-module](https://robocraze.com/products/lm2596-dc-dc-buck-module)                                                                                                                                             | Robocraze         |
+| 18650 3.7V Battery Cells          | Power source (3 for car, 2 for controller)                 | 5        | 7.60             | [https://robocraze.com/products/18650-2200mah-3-7v-battery-cylinder-type-blue](https://robocraze.com/products/18650-2200mah-3-7v-battery-cylinder-type-blue)                                                                                                   | Robocraze         |
+| ESP32-CAM                         | Main car controller + camera streaming                     | 1        | 6.00             | [https://robokits.co.in/wireless-solutions/iot-esp-module/esp32-cam-development-board-wifi-bluetooth-with-ov2640-camera-module](https://robokits.co.in/wireless-solutions/iot-esp-module/esp32-cam-development-board-wifi-bluetooth-with-ov2640-camera-module) | Robokits          |
+| TB6612FNG Motor Driver            | Controls direction and speed of DC motors                  | 1        | 1.70             | [https://robocraze.com/products/tb6612fng-dual-dc-motor-driver](https://robocraze.com/products/tb6612fng-dual-dc-motor-driver)                                                                                                                                 | Robocraze         |
+| DC Motors (12V, ~1000RPM)         | Drive wheels for movement                                  | 4        | 7.54             | [https://robu.in/product/1000rpm-12v-low-noise-dc-motor-with-metal-gears-grade-a/](https://robu.in/product/1000rpm-12v-low-noise-dc-motor-with-metal-gears-grade-a/)                                                                                           | Robu              |
+
+
+
 ### System flow
 
 ![System Flow](image/circuit/car.png)
@@ -23,6 +38,7 @@ The basic plan for comunication between the controller and cas is as follows:
 
 - esp32 cam will capture video
 - send over wifi to esp32 [controller] and then showed on screen
+- 
 
 ### controller design
 
