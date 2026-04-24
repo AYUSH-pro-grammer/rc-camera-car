@@ -1,0 +1,8 @@
+Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
+"3S battery holder","to hold battery and connect them in series ",1,0.30,"https://robocraze.com/products/18650-3-cell-holder-charger-without-cover?_pos=11&_sid=bd8173af3&_ss=r","robocraze"
+"2s battery holder","to hold the batteries of controller",1,0.37,"https://robocraze.com/products/18650-2-cell-holder?_pos=9&_sid=bd8173af3&_ss=r","robocraze"
+"buck converter","to decrease the voltage for esp32, we are using 3 cell to power both esp32 and motor for esp32 we have to step down 11.1v to 5 or 3v",2,1.20,"https://robocraze.com/products/lm2596-dc-dc-buck-module?variant=40192693076121","robocraze"
+"3.7v battery cells","to power the car and the controller using 3 for car / motor as 11.1v suplly and other 2 for contorller",5,7.60,"https://robocraze.com/products/18650-2200mah-3-7v-battery-cylinder-type-blue?_pos=4&_sid=32c75ada7&_ss=r","robocraze"
+"ESP32 CAM","to capture photo video and control the motor driver",1,6.00,"https://robokits.co.in/wireless-solutions/iot-esp-module/esp32-cam-development-board-wifi-bluetooth-with-ov2640-camera-module?srsltid=AfmBOoo-qCFaofCTxwHiGVg1j4RTZ5NUBMxEdfuCCQpmQ42tzy_xALkl","robokits"
+"TB6612FNG Dual DC Motor Driver","to move motor by sending signal to it",1,1.70,"https://robocraze.com/products/tb6612fng-dual-dc-motor-driver?_pos=1&_sid=bd19198ff&_ss=r","robocraze"
+"Dc Motor","To move the wheel and make car move",4,7.54,"https://robu.in/product/1000rpm-12v-low-noise-dc-motor-with-metal-gears-grade-a/","robu"
