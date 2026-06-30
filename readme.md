@@ -1,5 +1,11 @@
 # WiFi FPV RC CAR using ESP32-CAM 
 
+
+<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/5ff61c72-3f50-45ae-9d5b-ef3ac9030c06" />
+![Uploading image.png…]()
+
+
+
 ## What is this project
 this project is a wifi controller rc car build using esp32-cam for main chasis and esp32 for controller
 instead of using traditional remote, i make my own custom controller using esp32, joystick and screen
